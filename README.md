@@ -13,4 +13,4 @@ The intention is to provide an example to build on, to build more interesting pa
 1. Check this repository out
 1. Check out the AGOF [repository](https://github.com/validatedpatterns/agof), which will serve as the provisioner for the pattern
 1. Configure an `~/agof_vault.yml` file with your AWS credentials and configuration
-1. This config will then load the demo [project](https://github.com/vadlidatedpatterns/agof_minimal_demo) into your AAP instance.
+1. This config will then load the demo [project](https://github.com/validatedpatterns-demos/agof_minimal_demo.git) into your AAP instance.
