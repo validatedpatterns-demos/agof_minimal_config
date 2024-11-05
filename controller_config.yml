@@ -1,5 +1,13 @@
 # vim: ft=yaml.ansible
 ---
+# 2.5 compatibility section
+aap_username: '{{ controller_username_vault }}'
+aap_password: '{{ controller_password_vault }}'
+aap_organizations: '{{ controller_organizations }}'
+aap_validate_certs: '{{ controller_validate_certs }}'
+aap_configuration_async_retries: '{{ controller_configuration_async_retries }}'
+# End 2.5 compatibiity section
+
 orgname_vault: 'Demo Organization'
 
 controller_username_vault: 'admin'
@@ -8,11 +16,11 @@ controller_password_vault: '{{ admin_password }}'
 controller_username: '{{ controller_username_vault }}'
 controller_password: '{{ controller_password_vault }}'
 
+controller_configuration_async_retries: 30
+
 agof_demo_project_name: 'Ansible GitOps Framework Minimal Demo'
 
 controller_validate_certs: false
-
-controller_configuration_async_retries: 30
 
 controller_settings: []
 
